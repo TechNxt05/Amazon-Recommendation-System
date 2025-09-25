@@ -1,0 +1,30 @@
+# Python / env
+venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# node / build
+node_modules/
+dist/
+build/
+
+# Model binaries (do NOT commit)
+backend/models/*.npy
+backend/models/*.pt
+backend/models/*.bin
+backend/models/trust_scores.json
+backend/models/product_embeddings.npy
+
+# archives
+*.zip
+*.tar.gz
+
+data/
+**/data/
+backend/data/
+raw_data/
+processed_data/
